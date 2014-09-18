@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8BC87A519CA0E92004EEC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87A419CA0E92004EEC1F /* AppDelegate.m */; };
+		D8BC87A719CA0E92004EEC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87A619CA0E92004EEC1F /* main.m */; };
+		D8BC87AA19CA0E92004EEC1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87A919CA0E92004EEC1F /* ViewController.m */; };
+		D8BC87AC19CA0E92004EEC1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BC87AB19CA0E92004EEC1F /* Images.xcassets */; };
+		D8BC87AF19CA0E92004EEC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BC87AD19CA0E92004EEC1F /* Main.storyboard */; };
+		D8BC87BB19CA0E92004EEC1F /* StockTickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87BA19CA0E92004EEC1F /* StockTickerTests.m */; };
+		D8BC87C719CA10F7004EEC1F /* StockGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87C619CA10F7004EEC1F /* StockGraphView.m */; };
+		D8BC87CB19CA1A7B004EEC1F /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87CA19CA1A7B004EEC1F /* DataManager.m */; };
+		D8BC87CE19CA929F004EEC1F /* stockprices.json in Resources */ = {isa = PBXBuildFile; fileRef = D8BC87CD19CA929F004EEC1F /* stockprices.json */; };
+		D8BC87D119CA950F004EEC1F /* StockData.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC87D019CA950F004EEC1F /* StockData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8BC87B519CA0E92004EEC1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8BC879619CA0E92004EEC1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8BC879D19CA0E92004EEC1F;
+			remoteInfo = StockTicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8BC879E19CA0E92004EEC1F /* StockTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BC87A219CA0E92004EEC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BC87A319CA0E92004EEC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8BC87A419CA0E92004EEC1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8BC87A619CA0E92004EEC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8BC87A819CA0E92004EEC1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8BC87A919CA0E92004EEC1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8BC87AB19CA0E92004EEC1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8BC87AE19CA0E92004EEC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8BC87B419CA0E92004EEC1F /* StockTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BC87B919CA0E92004EEC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BC87BA19CA0E92004EEC1F /* StockTickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockTickerTests.m; sourceTree = "<group>"; };
+		D8BC87C519CA10F7004EEC1F /* StockGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockGraphView.h; sourceTree = "<group>"; };
+		D8BC87C619CA10F7004EEC1F /* StockGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockGraphView.m; sourceTree = "<group>"; };
+		D8BC87C919CA1A7B004EEC1F /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D8BC87CA19CA1A7B004EEC1F /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D8BC87CD19CA929F004EEC1F /* stockprices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stockprices.json; sourceTree = "<group>"; };
+		D8BC87CF19CA950F004EEC1F /* StockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockData.h; sourceTree = "<group>"; };
+		D8BC87D019CA950F004EEC1F /* StockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8BC879B19CA0E92004EEC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BC87B119CA0E92004EEC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8BC879519CA0E92004EEC1F = {
+			isa = PBXGroup;
+			children = (
+				D8BC87A019CA0E92004EEC1F /* StockTicker */,
+				D8BC87B719CA0E92004EEC1F /* StockTickerTests */,
+				D8BC879F19CA0E92004EEC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8BC879F19CA0E92004EEC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC879E19CA0E92004EEC1F /* StockTicker.app */,
+				D8BC87B419CA0E92004EEC1F /* StockTickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8BC87A019CA0E92004EEC1F /* StockTicker */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87CC19CA929F004EEC1F /* Data */,
+				D8BC87C819CA1A37004EEC1F /* Managers */,
+				D8BC87C419CA10C7004EEC1F /* Views */,
+				D8BC87A319CA0E92004EEC1F /* AppDelegate.h */,
+				D8BC87A419CA0E92004EEC1F /* AppDelegate.m */,
+				D8BC87A819CA0E92004EEC1F /* ViewController.h */,
+				D8BC87A919CA0E92004EEC1F /* ViewController.m */,
+				D8BC87AB19CA0E92004EEC1F /* Images.xcassets */,
+				D8BC87AD19CA0E92004EEC1F /* Main.storyboard */,
+				D8BC87A119CA0E92004EEC1F /* Supporting Files */,
+			);
+			path = StockTicker;
+			sourceTree = "<group>";
+		};
+		D8BC87A119CA0E92004EEC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87A219CA0E92004EEC1F /* Info.plist */,
+				D8BC87A619CA0E92004EEC1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8BC87B719CA0E92004EEC1F /* StockTickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87BA19CA0E92004EEC1F /* StockTickerTests.m */,
+				D8BC87B819CA0E92004EEC1F /* Supporting Files */,
+			);
+			path = StockTickerTests;
+			sourceTree = "<group>";
+		};
+		D8BC87B819CA0E92004EEC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87B919CA0E92004EEC1F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8BC87C419CA10C7004EEC1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87C519CA10F7004EEC1F /* StockGraphView.h */,
+				D8BC87C619CA10F7004EEC1F /* StockGraphView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8BC87C819CA1A37004EEC1F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87C919CA1A7B004EEC1F /* DataManager.h */,
+				D8BC87CA19CA1A7B004EEC1F /* DataManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D8BC87CC19CA929F004EEC1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D8BC87CD19CA929F004EEC1F /* stockprices.json */,
+				D8BC87CF19CA950F004EEC1F /* StockData.h */,
+				D8BC87D019CA950F004EEC1F /* StockData.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8BC879D19CA0E92004EEC1F /* StockTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8BC87BE19CA0E92004EEC1F /* Build configuration list for PBXNativeTarget "StockTicker" */;
+			buildPhases = (
+				D8BC879A19CA0E92004EEC1F /* Sources */,
+				D8BC879B19CA0E92004EEC1F /* Frameworks */,
+				D8BC879C19CA0E92004EEC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockTicker;
+			productName = StockTicker;
+			productReference = D8BC879E19CA0E92004EEC1F /* StockTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8BC87B319CA0E92004EEC1F /* StockTickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8BC87C119CA0E92004EEC1F /* Build configuration list for PBXNativeTarget "StockTickerTests" */;
+			buildPhases = (
+				D8BC87B019CA0E92004EEC1F /* Sources */,
+				D8BC87B119CA0E92004EEC1F /* Frameworks */,
+				D8BC87B219CA0E92004EEC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8BC87B619CA0E92004EEC1F /* PBXTargetDependency */,
+			);
+			name = StockTickerTests;
+			productName = StockTickerTests;
+			productReference = D8BC87B419CA0E92004EEC1F /* StockTickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8BC879619CA0E92004EEC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cinespan, Inc.";
+				TargetAttributes = {
+					D8BC879D19CA0E92004EEC1F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D8BC87B319CA0E92004EEC1F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D8BC879D19CA0E92004EEC1F;
+					};
+				};
+			};
+			buildConfigurationList = D8BC879919CA0E92004EEC1F /* Build configuration list for PBXProject "StockTicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8BC879519CA0E92004EEC1F;
+			productRefGroup = D8BC879F19CA0E92004EEC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8BC879D19CA0E92004EEC1F /* StockTicker */,
+				D8BC87B319CA0E92004EEC1F /* StockTickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8BC879C19CA0E92004EEC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BC87AC19CA0E92004EEC1F /* Images.xcassets in Resources */,
+				D8BC87CE19CA929F004EEC1F /* stockprices.json in Resources */,
+				D8BC87AF19CA0E92004EEC1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BC87B219CA0E92004EEC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8BC879A19CA0E92004EEC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BC87C719CA10F7004EEC1F /* StockGraphView.m in Sources */,
+				D8BC87CB19CA1A7B004EEC1F /* DataManager.m in Sources */,
+				D8BC87D119CA950F004EEC1F /* StockData.m in Sources */,
+				D8BC87AA19CA0E92004EEC1F /* ViewController.m in Sources */,
+				D8BC87A719CA0E92004EEC1F /* main.m in Sources */,
+				D8BC87A519CA0E92004EEC1F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8BC87B019CA0E92004EEC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BC87BB19CA0E92004EEC1F /* StockTickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8BC87B619CA0E92004EEC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8BC879D19CA0E92004EEC1F /* StockTicker */;
+			targetProxy = D8BC87B519CA0E92004EEC1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8BC87AD19CA0E92004EEC1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BC87AE19CA0E92004EEC1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8BC87BC19CA0E92004EEC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8BC87BD19CA0E92004EEC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8BC87BF19CA0E92004EEC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StockTicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8BC87C019CA0E92004EEC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StockTicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D8BC87C219CA0E92004EEC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StockTickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockTicker.app/Contents/MacOS/StockTicker";
+			};
+			name = Debug;
+		};
+		D8BC87C319CA0E92004EEC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StockTickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockTicker.app/Contents/MacOS/StockTicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8BC879919CA0E92004EEC1F /* Build configuration list for PBXProject "StockTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BC87BC19CA0E92004EEC1F /* Debug */,
+				D8BC87BD19CA0E92004EEC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8BC87BE19CA0E92004EEC1F /* Build configuration list for PBXNativeTarget "StockTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BC87BF19CA0E92004EEC1F /* Debug */,
+				D8BC87C019CA0E92004EEC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8BC87C119CA0E92004EEC1F /* Build configuration list for PBXNativeTarget "StockTickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BC87C219CA0E92004EEC1F /* Debug */,
+				D8BC87C319CA0E92004EEC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8BC879619CA0E92004EEC1F /* Project object */;
+}
