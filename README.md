@@ -1,4 +1,4 @@
 stock-tracker
 =============
 
-Programming exercise to demonstrate a graph. Developed in Xcode 6.1 for Yosemite
+OS X Yosemite Application to demonstrate a graph which tracks sample stock data. Requires Xcode 6.1 and Yosemite (10.10).
